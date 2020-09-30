@@ -21,5 +21,11 @@
 
 class Shoe
   
+  BRANDS = []
+  
+  def brand=(brand)
+    @brand = brand
+    BRANDS << brand if !BRAND.include?(brand)
+  end
   
 end
