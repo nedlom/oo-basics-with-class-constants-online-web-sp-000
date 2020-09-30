@@ -18,3 +18,8 @@
 #   end
 
 # end
+
+class Shoe
+  
+  
+end
